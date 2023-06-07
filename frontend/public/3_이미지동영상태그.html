@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!--
+
+자동실행이 막혀있으니 재생이 필요 한 소스인 경우
+태그에 controls 추가
+
+음악
+<audio controls> 
+
+<source src="소리.mp3">
+</audio>
+---------------------------
+
+비디오
+<video controls>
+	<source src="video1.mp4">
+</video>
+---------------------------
+
+외부 멀티미디어 출력
+<iframe> (사이트 내 공유-퍼가기 사용)
+
+
+<img src="이미지 이름" /> 이미지 태그
+	절대경로 : 파일의 실제 저장 위치
+	상대경로 : 현재 문서 기준 경로
+		1. 만약 같은 폴더에 존재하면	: ./파일명 또는 파일명
+		2. 만약 상위 폴더에 존재하면	: ./파일명
+		3. 만약 상상위 폴더에 존재하면	: ../../파일명
+		4. 만약 상위 폴더내 하위 폴더에 존재하면	: ../폴더명/파일명
+	
+
+	절대 경로 
+	<img src="C:\Users\504\Desktop\workclass\frontend\public\img1.jpg" />
+	상대 경로
+	<img src="img1.jpg" />
+
+-->
+<!-- <h6> 절대경로 </h6>
+<img src="C:\Users\504\Desktop\workclass\frontend\public\img1.jpg" />
+ -->
+	<h6> 상대경로 </h6>
+	<img src="img1.jpg" />
+	
+	<h6> 상대경로 : 현재 문서와 같은 폴더</h6>
+	<img src="./이미지/img2.jpg" />
+	
+	<h6> 상대경로 : 현재문서의 상위 폴더내 하위 폴더 사진일때 </h6>
+	<img src="../이미지2/img3.jpg" />
+	<p>
+	<audio controls> 
+	<!-- 자동실행은 정책상 막혀있어 controls 추가 
+	스크립트 사용하여 자동실행 사용 가능
+	 -->
+		<source src="music1.mp3">
+	</audio>
+	<br>
+	<video controls>
+		<source src="video1.mp4">
+	</video>
+	
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/aePDKYKUUx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+	<p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.4442585359675!2d126.8484242764372!3d37.30830307210674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b6f81ed7be66b%3A0x4b5f72df9e8f8dd9!2z7JWI7IKwIOydtOygoOyVhOy5tOuNsOuvuOy7tO2TqO2EsO2VmeybkA!5e0!3m2!1sko!2skr!4v1686127377776!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+</html>
