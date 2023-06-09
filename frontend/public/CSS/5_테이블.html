@@ -9,14 +9,24 @@
 
 </head>
 <body>
+	<table>
+		<tr><th>헤더</th></tr>
+		<tr><td>데이터</td></tr>
+	</table>
 
-	<table class="free_table">
+	<table class="fee_table">
 		<tr> <!-- 1행 -->
-			<th> 종류 </th>
-			<th> 대인 </th>
-			<th> 소인 </th>
-			<th> 비고 </th>
+			<th class="col1"> 종류 </th>
+			<th class="col2"> 대인 </th>
+			<th class="col3"> 소인 </th>
+			<th class="col4"> 비고 </th>
 		</tr>
+			<tr> <!-- 1행 -->
+			<td> 주간권 </td>
+			<td> 20,000원 </td>
+			<td> 10,000원 </td>
+		</tr>
+		
 			<tr> <!-- 2행 -->
 			<td> 야간권 </td>
 			<td> 30,000원 </td>
@@ -29,7 +39,20 @@
 			<td> 30,000원 </td>
 		</tr>
 		
+		
 		</table>
+		
+		<table class="login_table">
+			<tr>
+				<td><input class="id" type="text"></td>
+				<td rowspan="2"><input class="btn" type="button" value="로그인">
+			</tr>
+			<tr>
+				<td><input class="password" type="password"></td>
+			</tr>		
+		</table>
+		
+		
 
 </body>
 </html>
