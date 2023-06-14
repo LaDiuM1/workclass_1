@@ -48,7 +48,7 @@ a{
 	width: 1200px;
 	height: 200px;
 	background-image: url("img/sub_intro.jpg");
-	background-size: 1200px 200px;
+	background-size: 1200px 250px;
 	margin: 0 auto;
 	flex-direction: column;
 	justify-content: center;

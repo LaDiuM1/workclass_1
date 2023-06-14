@@ -48,7 +48,7 @@ a{
 	width: 1200px;
 	height: 200px;
 	background-image: url("img/sub_reservation.jpg");
-	background-size: 1200px 200px;
+	background-size: 1200px 250px;
 	margin: 0 auto;
 	flex-direction: column;
 	justify-content: center;
@@ -72,7 +72,7 @@ a{
 }
 
 .main{
-	direction: flex;
+	display: flex;
 	width: 800px;
 	margin: 0 auto;
 	margin-bottom: 50px;
@@ -82,7 +82,7 @@ a{
 
 .table{
 	width : 550px;
-	height: 450px;
+	height: 500px;
 	background-color: #FCF9EA;
 	
 }
@@ -103,6 +103,34 @@ a{
 	
 }
 
+.r1 h3{
+	margin: 15px;
+	margin-left : 20px;
+	margin-bottom: 10px;
+	border-left: solid 5px #434343;
+	padding-left: 10px;
+
+	
+}
+
+.s_text{
+	font-size: 8px;
+	margin-left: 25px;
+	list-style-type: none;
+	line-height: 200%;
+	
+	
+}
+
+.green_text{
+	font-size: 10px;
+	margin-left: 25px;
+	color: #007700;
+	margin-top: 10px;
+	font-weight: bold;
+	width: 80%;
+	
+}
 
 #footer{
 	background-color: #292C32;
@@ -152,20 +180,43 @@ a{
 	width : 90%;
 	height: 70%;
 	margin: 0 auto;
+
 	
 }
 
 .week{
 	width: 67px;
 	height: 10px;
+	border: solid 2px black;
+	text-align: center;
+	padding: 2px;
+	
 	
 	
 }
 
 .month_data{
-	border: solid 1px black;
+	 border-spacing: 0;
+	 font-size: 10px;
+	border-collapse: collapse;
+	margin-top: 10px;
+	background-color: white;
 	
 	
 }
 
+.sun{
+	color: red;
+}
 
+.date_data{
+	height: 65px;
+	width: 67px;
+	border: solid 2px black;
+	padding: 2px;
+	vertical-align: top;
+	
+	
+	
+	
+}
