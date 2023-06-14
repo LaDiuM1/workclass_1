@@ -47,7 +47,7 @@ a{
 	display: flex;
 	width: 1200px;
 	height: 200px;
-	background-image: url("img/sub_intro.jpg");
+	background-image: url("img/sub_reservation.jpg");
 	background-size: 1200px 200px;
 	margin: 0 auto;
 	flex-direction: column;
@@ -59,6 +59,7 @@ a{
 
 .m_top h4 , .m_top h6{
 	font-weight: 300;
+	line-height: 150%;
 	
 }
 
@@ -70,44 +71,38 @@ a{
 
 }
 
-.intro1{
-	margin-bottom: 50px;
-	
-}
-.intro1 img{
-	width : 360px;
-	
-}
-
-.intro1_text{
-		width : 328px;
-		line-height: 200%;
-		font-size: 10px;
-		padding: 17px;
-		
-}
-.intro1_text p{
-	margin-top: 20px;
-}
-.intro1_text h2 , .intro_text h4{
-	font-weight: 800;
-}
-
-.m_bottom{
-	width: 100%;
-	background-color: #EEEEEE;
-
-
-
-}
-.d2{
-	display: flex;
-	justify-content: flex-start;
-	width:800px;
+.main{
+	direction: flex;
+	width: 800px;
 	margin: 0 auto;
-	padding-top: 50px; 
+	margin-bottom: 50px;
+
 	
 }
+
+.table{
+	width : 550px;
+	height: 450px;
+	background-color: #FCF9EA;
+	
+}
+
+.date{
+	font-size: 10px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.year{
+	text-align: center;
+	
+}
+.arrow{
+	font-size: 13px;
+	
+}
+
 
 #footer{
 	background-color: #292C32;
@@ -151,6 +146,26 @@ a{
 .copy2{
 	margin-top: 10px;
 	font-size: 10px;
+}
+
+.month_table{
+	width : 90%;
+	height: 70%;
+	margin: 0 auto;
 	
 }
+
+.week{
+	width: 67px;
+	height: 10px;
+	
+	
+}
+
+.month_data{
+	border: solid 1px black;
+	
+	
+}
+
 
