@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+a{ /* 모든 a태그에 적용 */
+	color: black;
+	text-decoration: none;
+	
+}
+
+/* 액션 속성 */
+a:hover{ /* 선택자:hover{}해당 요소에 마우스를 올렸을때  */
+	color: orange;
+	background-color: black;
+
+}
+
+a:active{ /* 해당 요소를 클릭 했을때 css */
+	color : blue;
+	
+}
+
+a:visited{ /* 해당 요소를 클릭한 적이 있으면 css */
+	color: red;
+	
+	
+}
+
+#header{
+	background-color: #eeeeee;
+	display: flex;
+	justify-content: center;
+}
+
+.drop_menu{
+	display: inline-block;
+	margin: 35px;
+	position: relative;
+}
+
+.sub_menu{
+	display: none;
+	position: absolute;
+	top: 20px;
+	width: 80px;
+	
+	border-bottom: solid 1px #eeeeee;
+	border-right: solid 1px #eeeeee;
+	border-left: solid 1px #eeeeee;
+	padding-top: 5px;
+	
+}
+
+*{ padding : 0; margin: 0;}
+li{ list-style-type: none;}
+
+.drop_menu:hover .sub_menu{
+	display: block;
+	
+	
+}
+
