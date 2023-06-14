@@ -86,7 +86,84 @@ a{
 }
 .prom h3{
 	margin-bottom: 5px;
+}
+
+.m_bottom{
+	background-color: #F9F9F9;
+	width: 100%;
+}
+
+.back{
+	display: flex;
+	width: 800px;
+	margin: 0 auto;
+	justify-content: center;
+	
+}
+
+.d1 ul{
+	list-style-type: none;
+	line-height: 180%;
+
+	
+}
+.d1 {
+		background-color: white;
+	
+}
+
+.b_img{
+	width : 200px;
+
+	
+}
+.d1{
+	margin: 50px 10px;
+	
+}
+#footer{
+	background-color: #292C32;
+	width: 100%;
+	display: flex;
+
+	
+}
+.f_content{
+	width: 800px;
+	margin: 0 auto;
+	color: white;
+	display: flex;
+	height : 100px;
+	justify-content: space-between;
+	padding: 40px;
 	
 	
 }
+.tel{
+	font-size: 13px;
+
+}
+
+.tel p{
+	font-size: 20px;
+	line-height: 180%;
+	
+}
+.copy1 li{
+	list-style-type: none;
+	display: inline-block;
+	font-size: 11px;
+}
+
+.k1{
+	color: white;
+	
+}
+
+.copy2{
+	margin-top: 10px;
+	font-size: 10px;
+	
+}
+
 
