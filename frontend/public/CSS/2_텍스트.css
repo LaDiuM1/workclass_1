@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+	font-family: "궁서"; /*폰트*/
+	color: blue; /* 폰트색상 */
+}
+
+.title {
+	font-size: 30px; /* 폰트크기 */
+	font-style: italic; /* 기울기 */
+	font-weight: boid; /* 굵기 */
+}
+
+.text {
+	font-family: "굴림";
+	color: black;
+	word-spacing: 20px; /* 단어 간격(어간) */
+	letter-spacing: 2px; /* 글자 사이 간격(자간) */
+	line-height: 150%; /* 줄간격 */
+}
+
+.writer {
+	text-align: center; /* 텍스트 정렬 */
+	text-decoration: line-through; /* 취소선, 밑줄, 윗줄 */
+	text-shadow: 0px 0px 3px orange; /* 그림자 */
+	/* x축 - y축 -그림자 굵기 - 색상*/
+	
+	/* 색상 표현법 */
+	/* 1. 색상이름 */
+	color: red;
+	/* 헥사[16진수] */
+	color: #e8e8e8;
+	/* RGB VS raba(마지막은 투명도 */
+	color: raba(251, 247, 17);
+}
