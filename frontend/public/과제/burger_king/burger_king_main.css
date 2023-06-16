@@ -114,6 +114,7 @@ a{
 	height: 340px;
 	background-color: white;
 	z-index: 0;
+	border-bottom: solid 1px lightgray;
 	
 }
 .sub_menu{
@@ -198,14 +199,24 @@ a{
 }
 
 #main{
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	background-color: #F2EBE6;
 	
 }
-
+.back_color{
+	width: 1440px;
+	margin: 0 auto;
+	
+}
 .main_image_top{
 	margin-bottom: -10px;
+	
+}
+.test{
+	background-color: white;
+	padding-top: 1px;
+	
 	
 }
 
@@ -310,5 +321,37 @@ a{
 .delivery_list {
 	margin: 100px 0px;
 	display: flex;
+
+}
+
+.tel{
+	display: flex;
+	justify-content:center;
+	margin: 0 auto;
+	width: 1440px;
+	height: 200px;
+	background-image: url("img/main_background_image.png");
+	color: white;
+	font-family: "TTWanjudaedunsancheB";
+	align-items: center;
+}
+.tel h3{
+	margin-top: 10px;
+
+}
+
+.tel p{
+	display: inline-block;
+	font-size: 40px;
+	align-items: center;
+	margin: 0px 20px;
 	
 }
+
+.tel img{
+	margin-left: 150px;
+	
+	
+	
+}
+
