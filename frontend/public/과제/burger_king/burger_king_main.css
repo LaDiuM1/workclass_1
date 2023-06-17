@@ -199,6 +199,9 @@ a{
 	margin-bottom: 15px;
 }
 
+/* ---- 헤더 종료 ----  */
+
+/* ---- 메인 시작 ---- */
 #main{
 	width: 100%;
 	margin: 0 auto;
@@ -358,6 +361,10 @@ a{
 	
 }
 
+/* ---- 메인 종료 ---- */
+
+
+/* ---- 푸터 시작 ---- */
 #footer{
 	width: 100%;
 	background-color: #2B0200;
@@ -450,4 +457,18 @@ footer_sub_menu{
 	
 }
 
+.fixed{
+	position: fixed;
+	bottom: 50px;
+	left: 50%;
+	width: 52px;
+	height: 52px;
+	background-image: url("img/fixed_arrow.png");
+	background-size: 48px 48px;
+	border: none;
+	opacity: 0.8;
+	margin-left: 600px;
+	background-color: black;
+}
 
+/* ---- 푸터 종료 ---- */
