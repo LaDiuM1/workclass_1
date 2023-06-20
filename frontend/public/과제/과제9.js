@@ -26,8 +26,8 @@ console.log(max6 + ' ' + max4 + ' '+ max2)
       플레이어2 이겼을때 경우의수 ' 플레이어2 승리 ' 출력
       비겼을경우 '무승부' 출력*/
 
-let player1 = Number(prompt('플레이어 1 : 0~2 입력'))
-let player2 = Number(prompt('플레이어 2 : 0~2 입력'))
+let player1 = Number(prompt('플레이어 1 : 0(가위) 1(바위) 2(보) 입력'))
+let player2 = Number(prompt('플레이어 2 : 0(가위) 1(바위) 2(보) 입력'))
 
 
 let result = player1 == player2 ? '무승부' : player1 == 0 && player2 ==2 || player1 == 1 && player2 ==0 
@@ -35,5 +35,4 @@ let result = player1 == player2 ? '무승부' : player1 == 0 && player2 ==2 || p
 
 console.log(result)
 
-//가위1 바위2 보3
 
