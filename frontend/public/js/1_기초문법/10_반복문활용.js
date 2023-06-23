@@ -155,22 +155,38 @@ console.log(output)
 
 output = ``
 }
-
+*/
 console.log('-----문제10-----')
 int = Number(prompt('문제10 : 별의 개수를 입력하세요.'));
 
 output = ``
 
-for(let i=1; i<=int+2; i++){
-	for(let j=0; j<=i; j++){
-		if(j)
-		
+for(let i=1; i<=int; i++){
+	for(let j=2; j<=i; j++){
+	output += `  `
 	}
 
-
-output += `\n`
+output += `*`
+if(i!=int){output += ` `}
+	for(let k=int-i; k>1; k--){
+	if(i!=int)output += `  `
+	}
+	for(let l=int-i; l>1; l--){
+	if(i!=int)output += `  `
+	}
+if(i!=int){output += ` `}
+if(i!=int){output += `*`}
+	
+output +=`\n`
+output += ``
 }
+console.log(output)
 
+for(let i=1; i<=int; i++){
+	
+	
+	
+	}
 
 
 
