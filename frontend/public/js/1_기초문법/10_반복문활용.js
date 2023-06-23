@@ -1,4 +1,3 @@
-/*
 console.log('-----문제1-----')
 let int = Number(prompt('문제1 : 별의 개수를 입력하세요.'));
 
@@ -155,11 +154,14 @@ console.log(output)
 
 output = ``
 }
-*/
+
 console.log('-----문제10-----')
-int = Number(prompt('문제10 : 별의 개수를 입력하세요.'));
+let int1 = Number(prompt('문제10 : 별의 개수를 입력하세요.'));
 
 output = ``
+
+let int = Math.round(int1/2)
+
 
 for(let i=1; i<=int; i++){
 	for(let j=2; j<=i; j++){
@@ -180,14 +182,29 @@ if(i!=int){output += `*`}
 output +=`\n`
 output += ``
 }
-console.log(output)
 
-for(let i=1; i<=int; i++){
-	
-	
-	
+/* 구분 */
+
+for(let i=1; i<=int-1; i++){
+	for(let j=int-i-1; j>0; j--){
+		output += `  `
 	}
+output += `*`
+if(int!=1){output += ` `}
+if(int!=1){output += ` `}
+	for(let k=2; k<=i; k++){
+		output += `  `
+	}
+		for(let l=2; l<=i; l++){
+		output += `  `
+	}
+output += `*`
 
+	
+output +=`\n`
+output += ``
+}
+console.log(output)
 
 
 
