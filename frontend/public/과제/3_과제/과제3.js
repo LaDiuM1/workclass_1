@@ -51,7 +51,7 @@ function sumPcn(){
 	for ( let i = 0 ; i <= price.length-1; i++ ){
 				sum +=	Number(price[i]);
 				}
-				return sum.toLocaleString();
+	return sum.toLocaleString();
 }
 
 function delPcn( x ){
