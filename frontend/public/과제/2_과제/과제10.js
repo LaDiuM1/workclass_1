@@ -11,7 +11,7 @@
 	 let password_input = document.querySelector(".login_password")
 	 let password_value = password_input.value
 	 
-	if (id_value =='') {alert('Enter your user id and password.')} 
+	if (id_value =='' || password_value =='') {alert('Enter your user id and password.')} 
 		else if(id_arr.indexOf(id_value)!= -1){alert('This account is already in use. Please try again.')}
 		else if(id_value.length<8 || password_value.length<8) {alert('id and password must have at least 8 characters. try again.')}
 	 	else{
