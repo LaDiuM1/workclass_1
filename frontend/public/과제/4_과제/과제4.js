@@ -1,4 +1,4 @@
-let userData = []; let click = 0; let 조회수 = []; 
+let userData = []; let click = 0;
 
 /*
 1. 전역 배열 선언 후 글쓰기 페이지에서 받은 입력값을 글 등록 클릭 시
