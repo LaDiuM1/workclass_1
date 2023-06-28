@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{margin: 0; padding:0; }
+
+
+#wrap{
+	width : 100%;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	padding: 30px 0px;
+	
+	
+}
+
+.writePage{
+	display: flex;
+	flex-direction: column; 
+	
+}
+
+.submit{
+	width : 70px;
+	
+}
+
+.writePage h2, .indexPage h2, .readPage h2{
+	margin-bottom: 30px;
+	
+}
