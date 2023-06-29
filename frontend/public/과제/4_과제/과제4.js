@@ -74,9 +74,11 @@ function refresh(){
 function clickEvent(x){
 	let postData = document.querySelector('.readContent')
 	let postHTML = ` 제목 : ${userData[x].제목}<br/>
-							내용 : ${userData[x].내용}<br/>
 							작성자 : ${userData[x].작성자}<br/>
-							<button onclick="postDelete(${x})" type="button">삭제</button>
+							내용 </br><textarea class="changeContent" rows="10" cols="40" readonly>${userData[x].내용}</textarea>
+							<span><button onclick="postDelete(${x})" type="button">삭제</button>
+									<button onclick="postchange(${x})" type="button">수정</button>
+							</span>
 						`
 	postData.innerHTML = postHTML;
 	userData[x].조회수++
@@ -102,5 +104,31 @@ function postDelete(x){
 	
 }
 
+/*
+수정 함수 추가
+*/
+
+function postchange(x){
+	let userPassword = prompt('비밀번호를 입력해주세요.')
+	if(userPassword != userData[x].비밀번호) {alert('비밀번호가 틀렸습니다.'); return;}
+	let postData = document.querySelector('.readContent')
+	let postHTML = ` 제목 : ${userData[x].제목}<br/>
+							작성자 : ${userData[x].작성자}<br/>
+							내용 수정<br/><textarea class="changeContent" rows="10" cols="40"></textarea>
+							<button onclick="changeComplete(${x})" type="button">수정</button>
+					`
 	
+	postData.innerHTML = postHTML;
+}
+
+function changeComplete(x){
+	let changeData = document.querySelector('.changeContent').value
+	if(userData[x].내용 == changeData){alert('동일한 내용으로는 수정할 수 없습니다.'); return;}
+	if(changeData ==''){alert('수정할 내용을 입력해 주세요.'); return;}
+	userData[x].내용 = changeData
+	console.log(userData[x].수정내용)
+	alert('수정이 완료되었습니다.')
+	userData[x].조회수--
+	clickEvent(x)
+}
 
