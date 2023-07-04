@@ -15,7 +15,7 @@
 	<div class="kioskwrap"> <!-- 키오스크 전체 -->
 		<div> <!-- 헤더 : 광고이미지 표시되는 구역 -->
 			<!-- 광고이미지  -->
-			<img class="headderImg" src="../img/headder_img1.png" >
+			<img class="headderImg" src="../img/himg1.png" >
 		</div> 
 			<ul class="categoryMenu"><!-- 카테고리 -->
 				<li class="categorySelect">스패셜&할인팩</li>
@@ -66,9 +66,6 @@
 						<button class="orderBtn">취소하기</button>
 					</div>
 					
-				
-				
-				
 			
 			</div>
 		
