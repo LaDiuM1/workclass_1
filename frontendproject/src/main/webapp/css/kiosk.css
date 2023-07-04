@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+.kioskwrap{
+	font-family: 'LINESeedKR-Bd';
+	width: 700px;
+	margin : 50px auto;
+	
+}
+
+.headderImg{
+	width: 100%;
+	object-fit : cover;/* 비율 맞추기 */
+	
+	
+	
+}
+
+.categoryMenu{
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+/* 선택 안된 카테고리의 기본 스타일 */
+.categoryMenu li{
+	color : #8e8e8e;
+	
+}
+/* 선택된 카테고리의 스타일 */
+.categorySelect{
+	color: red !important;
+	/* 위에서 이미 color 속성을 사용했으므로 중복 
+	방법1. 선택자를 id로 설정
+	방법2. style 속성 사용
+	방법3. !important 
+	*/
+	border-bottom: solid 3px red;
+	padding: 3px;
+}
+
+/* 제품들 출력 구역 */
+.productBox{
+	margin: 0 auto;
+	height: 500px;
+	border: solid 1px red;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 5px 10px 30px 10px;
+	overflow: auto;
+	/* 해당 요소가 구역보다 클 경우 행동 */
+}
+
+/* 제품 1개 */
+.product{ width: 30%; text-align: center; }
+.product img{ width: 100%;}	
+
+.product .pprice{
+	color: red;
+}
+
+
+
+/* 카트 출력 구역 */
+
+.cartBox{
+	height: 250px;
+	border: 1px solid red;
+	background-color: #eeeeee;
+	position: relative;
+}
+
+/* 카트 상단 부분 */
+.cartTop{
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 20px;
+	
+}
+
+.cCount{
+	display: inline-block;
+	background-color: #ff1a1f;
+	width: 50px;
+	height: 20px;
+	border-radius: 20px;
+	text-align: center;
+	color: white;
+}
+
+
+
+.cartBottom{
+	display: flex;
+	overflow-x: auto;
+	
+}
+
+
+
+/* 카트내 제품 출력 구역 */
+.cItem{
+	min-width: 20%; /* 한줄에 4개씩 */ 
+	/* min-width, max-with 사용하여 크기 제한 설정 */
+	background-color: white;
+	padding: 10px;
+	margin: 5px 20px;
+	position: relative;
+}
+
+/* 카트 개별 취소 버튼 */
+
+.iCencle{
+	position: absolute; 
+	right: 10px; 
+	top: 10px;
+	
+}
+
+.iName{
+	width: 80%;
+	height: 50px;
+}
+.iPrice{
+	color: red;
+}
+
+/* 카트 버튼 구역 */
+
+.cartButton{
+	display: flex;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+
+.cartButton button{
+	width: 50%;
+	font-size: 20px;
+	color: white;
+	border: none;
+	position: absolute;
+	padding: 20px;
+}
+
+
+
+
+.cencleBtn{
+	background-color: black;
+}
+
+.orderBtn{
+	background-color: red;
+}
