@@ -42,7 +42,6 @@
 .productBox{
 	margin: 0 auto;
 	height: 500px;
-	border: solid 1px red;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -65,7 +64,6 @@
 
 .cartBox{
 	height: 250px;
-	border: 1px solid red;
 	background-color: #eeeeee;
 	position: relative;
 }
