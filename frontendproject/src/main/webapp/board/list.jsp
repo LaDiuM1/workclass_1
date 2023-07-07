@@ -48,12 +48,6 @@
 	 -->	
 	
 	
-	
-	
-	
-	
-	
-	
 	<%@include file="../header.jsp"%>
 	<!-- css/js 관련하여 라이브러리(미리 만들어진 css/js) 제공 -->
 

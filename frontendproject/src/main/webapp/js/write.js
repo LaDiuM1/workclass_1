@@ -14,6 +14,7 @@ $(document).ready(function() {
 /* 로그인 아이디 생성*/
 let loginId = `blue1234`;
 
+
 /*
 	JS는 HTML에 포함된 문서
 		- HTML 새로고침[F4] / 페이지전환 [ a ] 되면 JS도 재호출 => 메모리 휘발성

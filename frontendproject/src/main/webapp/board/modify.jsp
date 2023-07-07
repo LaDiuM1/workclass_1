@@ -20,19 +20,16 @@
 		
 		
 		<div class="container">
-			<input class="form-control mb-3 bTitle" type="text" placeholder="제목">
-			<textarea id="summernote" class="form-control m-3 bContent" rows="10" cols=""></textarea>
+			<input class="mTitle form-control mb-3 bTitle" type="text" placeholder="제목">
+			<textarea id="summernote" class="mContent form-control m-3" rows="10" cols=""></textarea>
 			<input class="form-control m-3" type="file" />
 			
 			<div class="row justify-content-md-center">
 				<div class=col-1>
-					<input onclick="getContent()" class="btn btn-outline-secondary form-control" type="button" value="등록">
+					<input onclick="modiComplete()" class="btn btn-outline-secondary form-control" type="button" value="수정하기">
 				</div>
 				<div class=col-1>
-					<input class="btn btn-outline-secondary form-control" type="button" value="다시쓰기">
-				</div>
-				<div class=col-1>
-					<a href="list.jsp"><input class="btn btn-outline-secondary form-control" type="button" value="목록보기"></a>
+					<a href="../board/view.jsp"><input class="btn btn-outline-secondary form-control" type="button" value="취소하기"></a>
 				</div>
 			</div>
 		</div>
@@ -54,7 +51,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.20/lang/summernote-ko-KR.min.js"></script>
 	
 	<!-- JS 호출 -->
-	<script src="../js/write.js" type="text/javascript"></script>
+	<script src="../js/modify.js" type="text/javascript"></script>
 	
 </body>
 </html>
