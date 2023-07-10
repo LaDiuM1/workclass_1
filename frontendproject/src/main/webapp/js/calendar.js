@@ -51,9 +51,11 @@ function calPrint(x){
 	for( let day=1-startWeek; day<=lastDate; day++){
 		if(day<1){ html += `<div></div>`
 		}else{
-		html += `<div onclick="openModal()"> ${day} </div>`
+		html += `<div onclick="openModal(${day})"> 
+		${day} 
+		${contentPrint(`${year}-${month}-${day}`)} 
+		</div>`
 		}
-		
 	}
 	calendar.innerHTML = html;
 }
@@ -61,13 +63,63 @@ function calPrint(x){
 
 
 // 3. 모달 열기 // 날짜 구역 클릭했을때
-function openModal(){
+function openModal(day){
 	document.querySelector('.modalwrap').style.display = 'flex';
+	
+	document.querySelector('.date').innerHTML = `${year}-${month}-${day}`
 }
 // 4. 모달 닫기 // 닫기 버튼 클릭했을때
 function closeModal(){
 	document.querySelector('.modalwrap').style.display = 'none';
 }
+
+let contents = [ ] // 여러개 일정 객체를 저장하는 배열
+
+
+// 5. 일정 등록 클릭 했을 때
+function onWrite(){
+	// 1. 입력받은 값 호출
+	let color = document.querySelector('.color')
+	let content = document.querySelector('.content')
+	let date = document.querySelector('.date')
+	
+	//2. 가공 [ 객체화, 유효성 검사] 
+	 let object = {
+		 color : color.value,
+		 content : content.value,
+		 date : date.innerHTML
+	 }
+	 contents.push(object)
+	
+	//3. 저장
+	
+	color.value='', content.vlaue='';
+	console.log(contents)
+	closeModal();
+
+}
+
+function contentPrint(date){
+	let html=``;
+	
+	for( let i=0; i<=contents.length; i++){
+		if(date==contentPrint[i].date){
+			html += `<span class="contentInput"
+			style="background-color:${contentPrint[i].color}">
+			${contentPrint[i].content}</span>`
+			
+		}
+	}
+	return html;
+}
+
+
+
+
+
+
+
+
 
 
 
