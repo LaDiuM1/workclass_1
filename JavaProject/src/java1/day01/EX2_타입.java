@@ -1,6 +1,6 @@
 package java1.day01; // 현재 클래스 패키지경로 
 
-public class Ex2_타입 { // class s
+public class EX2_타입 { // class s
 	
 	public static void main(String[] args) { // main s 
 		

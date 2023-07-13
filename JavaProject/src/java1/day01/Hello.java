@@ -16,6 +16,7 @@ public class Hello { // 클래스 선언 //  'Hello' 클래스명 (변수 선언
 		System.out.println("Hello Java");
 		//ctrl+F11 실행
 	
+		
 	}//메서드 끝
 	
 	//실행코드는 메인 메서드 밖에서 사용 불가

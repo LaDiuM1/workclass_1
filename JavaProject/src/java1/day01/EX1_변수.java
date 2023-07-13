@@ -1,6 +1,6 @@
 package java1.day01; // 현재 클래스가 위치한 폴더 경로
 
-public class Ex1_변수 { // class s
+public class EX1_변수 { // class s
 
 	// main + 컨트롤 + 스페이바 => 엔터
 	public static void main(String[] args) { // main s
