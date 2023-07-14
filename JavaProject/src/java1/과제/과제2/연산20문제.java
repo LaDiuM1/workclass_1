@@ -6,7 +6,7 @@ public class 연산20문제 {
 	
 	public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);
-		/*
+		
 		//------ 문제1 여기에 풀이-------//
 		System.out.println("	|\\_/|\r\n"
 				+ "	|q p|   /}\r\n"
@@ -84,91 +84,90 @@ public class 연산20문제 {
 		System.out.println((실수1/실수2)*100+"%");
 		
 		//------ 문제12 여기에 풀이-------//
-        System.out.print("윗변 : "); float 윗변 = scanner.nextFloat();
-        System.out.print("밑변 : "); float 및변 = scanner.nextFloat();
-        System.out.print("높이 : "); float 높이 = scanner.nextFloat();
+		System.out.print("윗변 : "); float 윗변 = scanner.nextFloat();
+		System.out.print("밑변 : "); float 및변 = scanner.nextFloat();
+		System.out.print("높이 : "); float 높이 = scanner.nextFloat();
         
-        float 넓이 = (윗변 + 및변) * 높이/2;
-    
-        System.out.println(넓이);
+		float 넓이 = (윗변 + 및변) * 높이/2;
+
+		System.out.println(넓이);
 		
 		//------ 문제13 여기에 풀이-------//
 		System.out.print("키 입력 : "); int 키 = scanner.nextInt();
 	    
-	    double 표준체중 = (키 - 100) * 0.9;
-	    System.out.println(표준체중);
+		double 표준체중 = (키 - 100) * 0.9;
+		System.out.println(표준체중);
 		
 		//------ 문제14 여기에 풀이-------//
-	    System.out.print("키 입력: "); double 키1 = scanner.nextDouble();
-	    System.out.print("몸무게 입력: "); double 몸무게 = scanner.nextDouble();
+		System.out.print("키 입력: "); double 키1 = scanner.nextDouble();
+		System.out.print("몸무게 입력: "); double 몸무게 = scanner.nextDouble();
 	    
-	    double bmi = 몸무게 / ((키1/100)*(키1/100));
-	    System.out.println((int)bmi);
+		double bmi = 몸무게 / ((키1/100)*(키1/100));
+		System.out.println((int)bmi);
 	    
 		//------ 문제15 여기에 풀이-------//
-		 System.out.print("인치 입력: "); double 인치 = scanner.nextDouble();
-	     
-	     double 인치단위 = 인치*2.54;
-	     System.out.println(인치단위 + "cm");
-	     */
+		System.out.print("인치 입력: "); double 인치 = scanner.nextDouble();
+
+		double 인치단위 = 인치*2.54;
+		System.out.println(인치단위 + "cm");
+	    
 		//------ 문제16 여기에 풀이-------//
 		System.out.print("중간고사 점수: "); double 중간고사 = scanner.nextDouble();
-	    System.out.print("기말고사 점수: ");  double 기말고사 = scanner.nextDouble();
-	    System.out.print("수행평가 점수: "); double 수행평가 = scanner.nextDouble();
+		System.out.print("기말고사 점수: ");  double 기말고사 = scanner.nextDouble();
+		System.out.print("수행평가 점수: "); double 수행평가 = scanner.nextDouble();
 	    
-	    
-	    double 평가점수 = 중간고사 * 0.3 + 기말고사 * 0.3 + 수행평가 * 0.4;
-	    System.out.printf("%.2f", 평가점수);
+		double 평가점수 = 중간고사 * 0.3 + 기말고사 * 0.3 + 수행평가 * 0.4;
+		System.out.printf("%.2f \n", 평가점수);
 		
 		//------ 문제17 여기에 풀이-------//
-	    int x = 10;
-	    int y = x-- + 5 + --x;
-	    System.out.printf(" x의 값 : %d , y의값 :  %d ", x, y);
+		int x = 10;
+		int y = x-- + 5 + --x;
+		System.out.printf(" x의 값 : %d , y의값 :  %d ", x, y);
 			
 		// x값에 10 대입
 		// y 변수 선언 후 
 		// x값(10) 계산 후 후위식으로 x값 1 감소,
 		// x값 9에 전위 감소식 연산 후 x값 8을
-		// 계산 완료 된 10에 더하고 5를 더해서 y값 23 출력
-		// 최종 계산 순서 : 10+((10-1)(9-1)=8)+5
+		// 계산 완료 된 10에 더하고 5를 더해서 x=8 y=23 출력
+		// 최종 계산 순서 : 10+[(10-1)->(9-1)=8]+5
 			
-	    //------ 문제18 여기에 풀이-------//
-	    System.out.print("나이 입력: ");  int 나이 = scanner.nextInt();
+		//------ 문제18 여기에 풀이-------//
+		System.out.print("나이 입력: ");  int 나이 = scanner.nextInt();
 	    
-	    String 연령대 = (나이 >= 40) ? "중년" :
-		    	  				(나이 >= 20) ? "성인" :
-		    	  					(나이 >= 10) ? "학생" : "미성년자";
+		String 연령대 = (나이 >= 40) ? "중년" :
+								(나이 >= 20) ? "성인" :
+									(나이 >= 10) ? "학생" : "미성년자";
 
-	    System.out.println(연령대);
+		System.out.println(연령대);
 		
-	    //------ 문제19 여기에 풀이-------//
-	    System.out.print("국어 점수 : "); int 국어 = scanner.nextInt();
-	    System.out.print("영어 점수 : "); int 영어 = scanner.nextInt();
-	    System.out.print("수학 점수 : "); int 수학 = scanner.nextInt();
+		//------ 문제19 여기에 풀이-------//
+		System.out.print("국어 점수 : "); int 국어 = scanner.nextInt();
+		System.out.print("영어 점수 : "); int 영어 = scanner.nextInt();
+		System.out.print("수학 점수 : "); int 수학 = scanner.nextInt();
 		    
-	    int 총점 = 국어+영어+수학;
-	    double 평균 = (double)총점/3;
+		int 총점 = 국어+영어+수학;
+		double 평균 = (double)총점/3;
 		    
-	    System.out.println("총점: " + 총점);
-	    System.out.printf("평균: %.2f", 평균);
-		 
+		System.out.println("총점: " + 총점);
+		System.out.printf("평균: %.2f \n", 평균);
+ 
 		//------ 문제20 여기에 풀이-------//
-	    System.out.print("아이디 입력: "); String id = scanner.nextLine();
-	    System.out.print("비밀번호 입력: "); String password = scanner.nextLine();
-	    String 로그인결과 = (id.equals("admin") && password.equals("1234")) ? "로그인 성공" : "로그인 실패";
+		System.out.print("아이디 입력: "); String id = scanner.nextLine();
+		System.out.print("비밀번호 입력: "); String password = scanner.nextLine();
+		String 로그인결과 = (id.equals("admin") && password.equals("1234")) ? "로그인 성공" : "로그인 실패";
 
-	    System.out.println(로그인결과);
-		    
+		System.out.println(로그인결과);
+
 		//------ 문제21 여기에 풀이-------//
-	    System.out.print("정수1 : "); int 정수11 = scanner.nextInt();
-	    System.out.print("정수2 : "); int 정수22 = scanner.nextInt();
-	    System.out.print("정수3 : "); int 정수33 = scanner.nextInt();
+		System.out.print("정수1 : "); int 정수11 = scanner.nextInt();
+		System.out.print("정수2 : "); int 정수22 = scanner.nextInt();
+		System.out.print("정수3 : "); int 정수33 = scanner.nextInt();
 	        
-	    int max1 = (정수11 > 정수22) ? 
-	    		((정수11 > 정수33) ? 정수11 : 정수33) 
-	    		: ((정수22 > 정수33) ? 정수22 : 정수33);
-	        
-	    System.out.println("가장 큰 수: " + max1);
+		int max1 = (정수11 > 정수22) ? 
+				((정수11 > 정수33) ? 정수11 : 정수33) 
+				: ((정수22 > 정수33) ? 정수22 : 정수33);
+
+		System.out.println("가장 큰 수: " + max1);
 	    
 	}
 }
