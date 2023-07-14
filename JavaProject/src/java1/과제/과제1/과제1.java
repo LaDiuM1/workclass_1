@@ -1,4 +1,4 @@
-package java1.과제1;
+package java1.과제.과제1;
 
 public class 과제1 {
 
@@ -52,7 +52,7 @@ public class 과제1 {
 	
 	문제 9번 : 1번
 	
-	문제 10번 : 1번 (바이트는 1byte 문자열은 char? (2byte))
+	문제 10번 : 1번 (바이트는 1byte 문자열은 char? (2byte)) [답 2번으로 int는 Integer 함수만 사용하여 변환 가능 ]
 	
 	문제 11번 : 13번, 16번
 	
