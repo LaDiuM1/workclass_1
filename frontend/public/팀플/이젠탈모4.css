@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+*{ padding: 0px; margin: 0px;}
+
+#talmoking{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#talmo_top{
+	display:flex;
+	justify-content: space-between;
+	width: 250px;
+	height: 400px;
+}
+
+#talmo_size{
+	margin: 10px;
+	width: 250px;
+	height: 350px;
+	border: solid 1px black;
+}
+
+#talmo_size p{
+	margin-left: -1px;
+	margin-top: 0px;
+	width: 250px;
+	height: 30px;
+	/* border: solid 1px black; */
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	/* background-color: lightblue; */
+	color: black;
+}
+#talmo_right{
+	margin-top: 175px;
+
+
+}
+	
+#talmo_bottom{
+	
+	width: 1200px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	
+}	
+
+#bottom_left{
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	
+}
+
+#bottom_right{
+	width: 50%;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 800;
+	
+}
+
+

@@ -6,7 +6,7 @@ public class 연산20문제 {
 	
 	public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in);
-		
+		/*
 		//------ 문제1 여기에 풀이-------//
 		System.out.println("	|\\_/|\r\n"
 				+ "	|q p|   /}\r\n"
@@ -110,7 +110,7 @@ public class 연산20문제 {
 	     
 	     double 인치단위 = 인치*2.54;
 	     System.out.println(인치단위 + "cm");
-	     
+	     */
 		//------ 문제16 여기에 풀이-------//
 		System.out.print("중간고사 점수: "); double 중간고사 = scanner.nextDouble();
 	    System.out.print("기말고사 점수: ");  double 기말고사 = scanner.nextDouble();
@@ -118,7 +118,7 @@ public class 연산20문제 {
 	    
 	    
 	    double 평가점수 = 중간고사 * 0.3 + 기말고사 * 0.3 + 수행평가 * 0.4;
-	    System.out.printf("%.2f%n", 평가점수);
+	    System.out.printf("%.2f", 평가점수);
 		
 		//------ 문제17 여기에 풀이-------//
 	    int x = 10;
@@ -150,7 +150,7 @@ public class 연산20문제 {
 	    double 평균 = (double)총점/3;
 		    
 	    System.out.println("총점: " + 총점);
-	    System.out.printf("평균: %.2f%n", 평균);
+	    System.out.printf("평균: %.2f", 평균);
 		 
 		//------ 문제20 여기에 풀이-------//
 	    System.out.print("아이디 입력: "); String id = scanner.nextLine();

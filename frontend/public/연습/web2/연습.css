@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+#webpage{
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#header{
+	width:100%;
+	justify-content: flex-start;
+	
+}

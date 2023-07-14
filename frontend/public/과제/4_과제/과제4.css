@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+*{margin: 0; padding:0px 5px; outline: none; }
+
+
+#wrap{
+	width : 1700px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	padding: 30px 0px;
+	
+	
+}
+
+#wrap div{
+	border: solid 1px #e0e0e0;
+	padding: 20px;
+	
+}
+.writer, .password, .title{
+	margin-right: 123px;
+	
+}
+
+
+.writePage{
+	display: flex;
+	flex-direction: column; 
+	margin: 0 auto;
+	padding-right: 50px;
+	width: 100%;
+}
+
+.writePage input {
+	margin-left: 5%;
+	margin-bottom: 10px;
+}
+
+#ta{
+	vertical-align: top;
+	margin-right: -3px;
+}
+.content{
+	margin-left: 6%;
+	margin-left: 26px;
+	vertical-align: top;
+	
+}
+
+
+.submit{
+	width : 59px;
+	margin-top: 10px;
+	margin-left : 204px;
+	text-align: left;
+	
+}
+
+.writePage h2, .indexPage h2, .readPage h2{
+	margin-bottom: 30px;
+	
+}
+.writePage h2 , .readPage h2{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	text-align: center;	
+}
+
+.indexPage{
+	text-align: center;
+	padding : 5px;
+	width: 100%;
+	
+}
+
+.indexPage table{
+margin: 0 auto;	
+	
+}
+
+.indexPage th {
+	padding: 0px 10px;
+	
+	
+}
+.table{
+	border-collapse: collapse;
+	
+}
+
+.content{
+ resize: none;
+ 
+}
+ .readContent{
+ border: none;
+ font-size: 20px;
+ }
+
+.writePage span{
+	text-align: right;
+	margin-right :0
+	
+}
+.readPage{
+	width: 100%;
+	
+	
+}
+
+.readContent{
+	line-height: 200%;
+	
+	
+	
+}
+ 
+ 

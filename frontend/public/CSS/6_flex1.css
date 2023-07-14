@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.box{
+	border: solid 1px blue;  /* 테두리 */
+	width: 100px;	/* 가로길이 */
+	
+}
+/* 가로배치 방법 */
+.flex_box1{
+	border: solid 1px red;
+	display: flex;	/* 하위 요소 배치방법 */
+	flex-direction: row; /* 방향 :  row 기본값 */
+	
+}
+
+/* 세로배치 방법  */
+.flex_box2{
+	border: solid 1px red;
+	padding: 5px;
+	display: flex;	/* 하위 요소 배치방법 */
+	flex-direction: column; /* 방향 :  세로배치 */
+}
+
+
+/* 하위 요소 배치 뒤집기  */
+.flex_box3{
+	border: solid 1px red;
+	padding: 5px;
+	display: flex;	/* 하위 요소 배치방법 */
+	flex-direction: row-reverse; /* 방향 :  세로배치 */
+}
+
+/* 하위 요소 배치 뒤집기  */
+.flex_box4{
+	border: solid 1px red;
+	padding: 5px;
+	display: flex;	/* 하위 요소 배치방법 */
+	flex-direction: column-reverse; /* 방향 :  세로배치 */
+}
