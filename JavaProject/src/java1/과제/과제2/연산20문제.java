@@ -85,10 +85,10 @@ public class 연산20문제 {
 		
 		//------ 문제12 여기에 풀이-------//
 		System.out.print("윗변 : "); float 윗변 = scanner.nextFloat();
-		System.out.print("밑변 : "); float 및변 = scanner.nextFloat();
+		System.out.print("밑변 : "); float 밑변 = scanner.nextFloat();
 		System.out.print("높이 : "); float 높이 = scanner.nextFloat();
         
-		float 넓이 = (윗변 + 및변) * 높이/2;
+		float 넓이 = (윗변 + 밑변) * 높이/2;
 
 		System.out.println(넓이);
 		
